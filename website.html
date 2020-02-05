@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color:#00cca3;
+            height: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 8px;
+        }
+        .item1{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav {
+        background-color: rgb(48, 47, 47);
+        display: flex;
+        height: 3rem;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+    .link {
+        align-self: center;
+        padding: 0.5rem;
+        color: white;
+    }
+    .container {
+        display: flex;
+
+    }
+    .image {
+        background-color: gray;
+        height: 5rem;
+        width: 5em;
+        display: flex;
+        padding: 0.5rem;
+    }
+    .sideBar-header{
+            font-family: Arial, Helvetica, sans-serif;
+    }
+    .image{
+            background-color: gray;
+            height: 8rem;
+            width: 8em;
+            display: flex;
+            justify-content: flex-start;
+    }
+    .image-content{
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    .image1{
+            background-color: gray;
+            height: 4rem;
+            width: 18em;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 8px;
+    }
+    .image2 {
+        background-color: grey;
+        height: 10rem;
+        width: inherit;
+        padding: 0.5rem;
+    }
+    .sideBar{
+        flex: 1;
+        background-color:rgb(238, 237, 237);
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 1rem;      
+        }
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        flex: 3;   
+        }
+    .footer{
+            background-color: rgb(202, 200, 200);
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="item1">
+            <h3>My Website</h3> 
+            <h6>With a <strong>flexible</strong> layout</h6>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="link">Link</div>
+        <div class="link">Link</div>
+        <div class="link">Link</div>
+        <div class="link">Link</div>
+    </div>
+    <div class="container">
+        <div class="sideBar">
+            <div class="sideBar-header"><strong>About Me</strong></div>
+            <h5>Photo of me</h5>
+           <div class="image">
+                <div class="image-content">Image</div>
+            </div>
+            <p>Some text about me</p>
+            <h4>More text</h4>
+            <p>More text about me</p>
+            <div class="image1">
+                <div class="image-content">Image</div>
+            </div>
+            <div class="image1">
+                <div class="image-content">Image</div>
+            </div>
+            <div class="image1">
+                <div class="image-content">Image</div>
+            </div>
+        </div>
+        <div class="titleContainer">
+            <h3>Title Heading</h3>
+            <h5>Title description, Feb 5, 2020</h5>
+            <div class="image2">
+                <div class="image-content">Image</div>
+            </div>
+            <p>Some text</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis</p>
+            <h3>Title Heading</h3>
+            <h5>Title description, Feb 5, 2020</h5>
+            <div class="image2">
+                <div class="image-content">Image</div>
+            </div>
+            <p>Some text</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis</p>
+        </div>
+    </div>    
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+</html>

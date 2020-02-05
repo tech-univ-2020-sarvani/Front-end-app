@@ -1,0 +1,11 @@
+{
+  "name": "flex-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sarvani",
+  "license": "ISC"
+}
